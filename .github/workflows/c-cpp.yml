@@ -18,6 +18,7 @@ jobs:
     - name: Go to repo
       run: cd Pure_cpp
     - name: Compile
+      working-directory: ./Pure_cpp
       run: c++ -o converter main.cpp `Magick++-config --cppflags --cxxflags --ldflags --libs`   
       
 
