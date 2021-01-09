@@ -24,10 +24,10 @@ You can choose beetween to options : an <b>UI-based</b>, and an <b>CLI-based</b>
   <br>
   
 ## Pure_cpp
-  ### Compiling
+  ### Compiling 
   ```shell
   sudo apt-get update
-  sudo apt-get install imagemagick
+  sudo apt-get install libmagick++-dev
   cd /your/repo/clone/Pure_cpp
   c++ -o converter main.cpp `Magick++-config --cppflags --cxxflags --ldflags --libs`
   ```
