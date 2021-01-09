@@ -23,7 +23,7 @@ You can choose beetween to options : an <b>UI-based</b>, and an <b>CLI-based</b>
   <br>
   <br>
   
-## Pure_cpp
+## Pure_cpp Version
   ### Compiling 
   ```shell
   sudo apt-get update
