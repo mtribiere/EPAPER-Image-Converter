@@ -1,4 +1,4 @@
-# EPAPER Image Converter
+# EPAPER Image Converter [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 A solution to convert an image from various format like <b> .png, .bmp, .jpg, .jpeg,... </b> to a <b>EPAPER monochrome display</b> format.
 The format used here is from left to top to bottom from left, to right, and by grouping <b>8 bits</b>. It has been develloped in parrallel with the library ESP8266_EPAPER_lib : https://github.com/mtribiere/ESP8266-EPAPER-Lib
 
@@ -20,6 +20,9 @@ You can choose beetween to options : an <b>UI-based</b>, and an <b>CLI-based</b>
   ./converter_ui
   ```
   
+  <br>
+  <br>
+  
 ## Pure_cpp
   ### Compiling
   ```shell
@@ -35,3 +38,6 @@ You can choose beetween to options : an <b>UI-based</b>, and an <b>CLI-based</b>
   cd /your/repo/clone/Pure_cpp
   ./converter yourimage.png threshold
   ```
+
+## Author
+Made with ❤️ by mtribiere
