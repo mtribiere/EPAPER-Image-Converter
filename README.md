@@ -17,7 +17,7 @@ You can choose beetween to options : an <b>UI-based</b>, and an <b>CLI-based</b>
   Same as above or, 
   ```shell
   cd /your/repo/clone/QT_UI/bin
-  ./converter_ui
+  ./Epaper_Converter
   ```
   
   <br>
