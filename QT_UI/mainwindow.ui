@@ -32,6 +32,10 @@
          <property name="text">
           <string>Choose file...</string>
          </property>
+         <property name="icon">
+          <iconset resource="folder_icon.qrc">
+           <normaloff>:/new/prefix1/folder_icon.png</normaloff>:/new/prefix1/folder_icon.png</iconset>
+         </property>
         </widget>
        </item>
       </layout>
@@ -134,6 +138,8 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="folder_icon.qrc"/>
+ </resources>
  <connections/>
 </ui>
